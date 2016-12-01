@@ -19,7 +19,9 @@ doSomething1(1, 1, function(response) {
 function doSomething2(param1, param2){
     // Do something
     return new Promise(function(resolve, reject){
-        setTimeout(function(){ // Delay for two seconds
+        // Delay for two seconds
+        // Just to simulate delay of request to remote api
+        setTimeout(function(){
             if(param1===param2){
                 resolve(true);
             }else{

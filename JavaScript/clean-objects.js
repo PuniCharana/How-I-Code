@@ -65,7 +65,7 @@ console.log(objData);
 		bar: {
 			foo: "q",
 			bar: {
-				foo:4,
+				foo:4
 			}
 		}
 	}
