@@ -1,3 +1,8 @@
+/*
+-----------------------------------------------------------------------
+    CALLBACKS
+-----------------------------------------------------------------------
+*/
 function doSomething1(param1, param2, successCallback, errorCallback) {
     // do something
     if (param1 === param2) {
@@ -15,7 +20,11 @@ doSomething1(1, 1, function(response) {
     console.log(error);
 });
 
-
+/*
+-----------------------------------------------------------------------
+    PROMISE
+-----------------------------------------------------------------------
+*/
 function doSomething2(param1, param2){
     // Do something
     return new Promise(function(resolve, reject){
